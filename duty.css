@@ -1,0 +1,67 @@
+.bg {
+  position: absolute;
+  display: none;
+  background-color: #00000096;
+
+}
+
+.titolo {
+  position: absolute;
+  display: none;
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 5px 5px rgb(255, 255, 255));
+  margin-left: 565px;
+  margin-top: 200px;
+  width: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.onduty {
+  display: none;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(95, 95, 95, 0.8);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 1px;
+  width: 240px;
+  height: 70px;
+  margin-top: 270px;
+  margin-left: 500px; /* Cambia il valore del margine sinistro in base alle tue esigenze */
+}
+
+.offduty {
+  display: none;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(95, 95, 95, 0.8);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 1px;
+  width: 240px;
+  height: 70px;
+  margin-top: 90px;
+  margin-left: 500px; /* Cambia il valore del margine sinistro in base alle tue esigenze */
+}
+
+
+* {
+  transition: all 0.4s;
+}
+
+.onduty:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.offduty:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
